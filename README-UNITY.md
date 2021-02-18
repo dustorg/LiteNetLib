@@ -26,6 +26,7 @@ For some reason Unity can't just use a git url, you have to:
 4. Drag the files back into the git repo. 
 5. Remove the `*.meta` from `.gitignore` so they're picked up in the final commit.
 6. Cry
+7. Add an Assembly Definition file named `LiteNetLib`
 
 ### 5. Commit
     git add -A && git commit -am "Package for Unity"
